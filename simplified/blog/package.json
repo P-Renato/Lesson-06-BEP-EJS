@@ -1,0 +1,25 @@
+{
+  "name": "lesson-06-bep-ejs",
+  "version": "1.0.0",
+  "description": "**PREVIOUSLY** - Serving static files with Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/P-Renato/Lesson-06-BEP-EJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/P-Renato/Lesson-06-BEP-EJS/issues"
+  },
+  "homepage": "https://github.com/P-Renato/Lesson-06-BEP-EJS#readme",
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
