@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS</title>
+</head>
+<body>
+    <%= message.toUpperCase() %>
+    <% message.split('').forEach(x=> { %>
+    <h1>  <%= x  %> </h1>
+    <% }) %>
+    <a href="/example">About</a> <!-- Here we select the route and not page url-->
+    <% for (let i=0; i<10; i++) { %>
+        <h1>Hello World from Renato</h1>
+    <% } %>
+    
+    <h2>Awesome!</h2>
+    <script>
+           fetch('/api/data')
+           .then((res)=> res.json())
+           .then((data) => alert(data.msg))
+    </script>
+</body>
+</html>
